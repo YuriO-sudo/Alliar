@@ -13,4 +13,7 @@ o lintstaged permite formatação de arquivos antes do commit .
 para rodar o projeto basta ir na pasta Alliar pela linha de comando (cmd/prompt) e digitar npm run test , logo na sequência irá abrir o cypress na versão 10.6.0, clique na opção "E2E Testing" no lado esquerdo da tela , escolha a opção de rodar o projeto no chrome e clique no botão "Start E2E Testing in Chrome" , quando abrir o browser controlado pelo Cypress , clique no arquivo "home.spec.cy.js" para rodar o teste.
 
 obs: as quatro questões de banco de dados estão no arquivo "banco.txt" (notepad)
+
 a questão 3 está no arquivo "casos de teste.xlsx" (excel)
+
+o arquivo Teste QA - Alliar.docx é o arquivo que eu recebi por e-mail que contém o desafio
