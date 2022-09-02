@@ -1,0 +1,37 @@
+
+--1 - Faça uma consulta e traga todas as vendas do cliente com nome alfredo
+
+SELECT 
+       *
+FROM 
+       Venda
+inner JOIN Cliente ON Venda.cliente_id=Cliente.id
+where Cliente.nome='alfredo';
+
+-- 2- Faça uma consulta e traga todas as vendas do vendedor 1
+
+select 
+       *
+from
+       Venda 
+where	
+       vendedor_id=1;
+
+--3 - Atualize todas as vendas do do cliente com o id 1
+
+UPDATE 
+       Venda
+set
+       valor_total = valor_total * 1.25 
+WHERE 
+       id=1;
+
+--4 - Exclua os dados do vendedor com id 2
+
+DELETE FROM 
+       vendedor 
+WHERE 
+       id=2;
+
+
+
